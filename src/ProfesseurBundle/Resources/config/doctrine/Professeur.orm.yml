@@ -1,0 +1,17 @@
+ProfesseurBundle\Entity\Professeur:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

@@ -1,0 +1,15 @@
+matiere:
+    resource: "@MatiereBundle/Resources/config/routing.yml"
+    prefix:   /
+
+professeur:
+    resource: "@ProfesseurBundle/Resources/config/routing.yml"
+    prefix:   /
+
+home:
+    resource: "@HomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
